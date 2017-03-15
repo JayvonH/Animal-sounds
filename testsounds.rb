@@ -20,4 +20,7 @@ class TestClassSound < Minitest::Test
 		animal = Pig.new("Poogie")
 		assert_equal("oink", animal.sound)
 	end
+	def test_returns_name_and_sound_cat
+		animal = Cat.new("Kitty says meow", animal.info)
+	end
 end

@@ -4,5 +4,7 @@ class Cat
 		@name = cat_name
 		@sound = "meow"
 	end
-
+	def info
+		info = "#{@name} says #{@sound}"
+	end
 end
