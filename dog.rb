@@ -4,4 +4,7 @@ class Dog
 		@name = dog_name
 		@sound = "bark"
 	end
+	def info
+		"#{@name} says #{@sound}"
+	end
 end
